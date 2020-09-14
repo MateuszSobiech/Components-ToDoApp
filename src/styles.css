@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* Background pattern from Toptal Subtle Patterns */
+body{
+    background-image: url("img/shattered.png");
+}
+
+button{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(247, 168, 168);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}

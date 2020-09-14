@@ -1,0 +1,15 @@
+<div>
+
+  <div class="box">
+    <app-enter-task (emiter) = "addTask($event)"></app-enter-task>
+  </div>
+
+  <div class="box">
+
+    <app-active-tasks [taskList] = "taskList" (emiterRemove) = "removeTask($event)" (emiterDone) = "doneTask($event)"></app-active-tasks>
+
+    <app-done-tasks [doneList] = "doneList"></app-done-tasks>
+  </div>
+  
+
+</div>

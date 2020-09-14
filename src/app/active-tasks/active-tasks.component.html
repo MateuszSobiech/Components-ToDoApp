@@ -1,0 +1,13 @@
+<div>
+    <p *ngIf="taskList.length == 0">No tasks here for now.</p>
+    <ul>
+      <li class="list" *ngFor="let task of taskList">
+        {{task}}
+      <div>
+        <button (click) = "removeTask(task)">Remove</button>
+        <button (click) = "doneTask(task)">Done</button>
+      </div>  
+        
+      </li>
+    </ul>
+  </div>
